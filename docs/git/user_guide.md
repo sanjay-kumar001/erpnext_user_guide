@@ -233,6 +233,51 @@ Useful for:
 - Understanding project evolution
 - Migration analysis
 
+### Example Output
+```text
+b708542          2026-05-13      Sanjay Kumar: fix: serialize date/datetime in chat api to prevent JSON errors
+0d28e54          2026-05-14      Sanjay Kumar: cleanup
+b2e4f0d          2026-05-18      Sanjay Kumar: fix chat input area
+72d18b0          2026-06-14      Sanjay Kumar: feat: add prescriptive analytics tools
+74c7603          2026-06-14      Sanjay Kumar: feat: add Azure OpenAI as AI provider
+
+```
+
+## 10. Display order by date
+
+```bash
+git log --oneline --decorate --graph --all --date-order
+```
+
+### Description
+Displays a compact, visual commit history for all branches, showing branch/tag references and ordering commits by date while preserving commit relationships.
+
+### Parameters
+| Parameter      | Purpose                                         |
+| -------------- | ----------------------------------------------- |
+| `--oneline`    | One commit per line                             |
+| `--decorate`   | Show branch, tag, and HEAD references           |
+| `--graph`      | Draw commit tree/graph                          |
+| `--all`        | Include all local and remote branches           |
+| `--date-order` | Sort commits by date while maintaining ancestry |
+
+### Use Case
+Useful for:
+- Check current HEAD position
+- Compare local vs remote branches
+- Verify results of reset, rebase, or merge
+- Visualize branch history and commit relationships
+- Troubleshoot missing or detached commits
+- Inspect history before a force push
+
+### Example Output
+
+```text
+* afba0d8 (origin/main) change logo
+* 74c7603 (HEAD -> main) feat: add Azure OpenAI as AI provider
+* 72d18b0 feat: add prescriptive analytics tools
+```
+
 ---
 
 # Commit Message Management
