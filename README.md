@@ -15,6 +15,14 @@ Comprehensive Frappe/ERPNext guide covering installation, customization, perform
 
 ---
 
+### 📁 Foss
+
+| Document | Description | Updated |
+|---|---|---|
+| [Projects](docs/foss/projects.md) | Free Open Source Projects For Frappe/ERPNext | 2026-06-16 |
+
+---
+
 ### 📦 Git
 
 | Document | Description | Updated |
@@ -106,7 +114,7 @@ Comprehensive Frappe/ERPNext guide covering installation, customization, perform
 
 ---
 
-_Last generated: 2026-06-16 05:38:08_
+_Last generated: 2026-06-16 06:02:46_
 
 <!-- DOCS_INDEX_END -->
 
