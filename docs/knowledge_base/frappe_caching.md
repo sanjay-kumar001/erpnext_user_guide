@@ -2,7 +2,7 @@
 
 Caching is a performance optimization technique that stores copies of frequently accessed data in a high‑speed storage layer (such as memory), so that future requests for that data can be served faster than fetching it from the original, slower source (e.g., a database, an external API, or a complex computation).
 
-![Process Flow](screenshots/caching_process_flow.png)
+![Process Flow](../..screenshots/caching_process_flow.png)
 
 ---
 
